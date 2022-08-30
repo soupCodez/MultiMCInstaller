@@ -1,6 +1,12 @@
 # MultiMCInstaller
 
-A MultiMC installer for Windows. 
+A [MultiMC](https://multimc.org/) installer for Windows. 
+
+## Install
+
+1. Run unlockexecpolicy.bat to allow unsigned scripts to run.
+2. Run main.ps1 and answer the prompts.
+3. For extra security you can run lockexecpolicy.bat.
 
 ## Notes
 
