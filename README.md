@@ -1,13 +1,22 @@
 # MultiMCInstaller
 
-A [MultiMC](https://multimc.org/) installer for Windows. 
+A [MultiMC](https://multimc.org/) installer for Windows. This project is not maintained or endorsed by MultiMC. If you modify my scripts or install to a system folder (e.g. System32) do not blame me for a bricked pc.
+
+## Contributing
+
+All contributions are welcome.
 
 ## Install
+### Per user install
 
-1. Run unlockexecpolicy.bat to allow unsigned scripts to run.
-2. Run main.ps1 and answer the prompts.
-3. For extra security you can run lockexecpolicy.bat.
+1. Run `unlockexecpolicy.bat` to allow unsigned scripts to run.
+2. Run `main.ps1` and answer the prompts.
+3. For extra security you can run `lockexecpolicy.bat`.
+### All user install
 
+1. Run `unlockexecpolicy.bat` to allow unsigned scripts to run.
+2. Run `allusers.ps1` as administrator and answer the prompts.
+3. For extra security you can run `lockexecpolicy.bat`.
 ## Notes
 
 ### MultiMC Copyright And License
