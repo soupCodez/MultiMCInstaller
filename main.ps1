@@ -38,3 +38,5 @@ if ($startMenuShortcut -eq 0) {
 } else {
     Write-Host 'NO START MENU SHORTCUT WILL BE CREATED'
 }
+
+Restart-Computer -Confirm

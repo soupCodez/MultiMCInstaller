@@ -10,12 +10,12 @@ All contributions are welcome.
 ### Per user install
 
 1. Run `unlockexecpolicy.bat` to allow unsigned scripts to run.
-2. Run `main.ps1` and answer the prompts.
+2. Run `main.ps1` and answer the prompts then restart your computer.
 3. For extra security you can run `lockexecpolicy.bat`.
 ### All user install
 
 1. Run `unlockexecpolicy.bat` to allow unsigned scripts to run.
-2. Run `allusers.ps1` as administrator and answer the prompts.
+2. Run `allusers.ps1` as administrator and answer the prompts then restart your computer.
 3. For extra security you can run `lockexecpolicy.bat`.
 ## Notes
 
